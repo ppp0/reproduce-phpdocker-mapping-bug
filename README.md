@@ -7,7 +7,7 @@ Run test
 
 You need Idea plugin **PHP Docker** (https://plugins.jetbrains.com/plugin/8595-php-docker). Plugin **Python** needs to be disabled!
 
-Select file `test.php` and run it with the remote interpreter inside docker-compose (Service: phpide)
+Select file `bin/test.php` and run it with the remote interpreter inside docker-compose (Service: phpide)
 
 Reproduce bug
 --
