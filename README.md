@@ -15,7 +15,7 @@ Reproduce bug
 Now, activate plugin **Python** and try the same
 
 In the run panel, you will see:
-`[docker-compose://[/home/ppp/IdeaProjects/reproduce-phpdocker-mapping-bug/docker-compose.yml]:phpide/]:php /opt/project/bin/test.php
+`[docker-compose://[<HOME>/IdeaProjects/reproduce-phpdocker-mapping-bug/docker-compose.yml]:phpide/]:php /opt/project/bin/test.php
  `
  
  That is, ` /opt/project/bin/test.php` instead of `/opt/reproduce-phpdocker-mapping-bug/bin/test.php`
