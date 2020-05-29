@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+
+  phpide:
+    image: php:alpine
+    restart: "no"
+    volumes:
+      - .:/opt/reproduce-phpdocker-mapping-bug
